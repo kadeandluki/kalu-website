@@ -1,0 +1,532 @@
+.body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: url(../setupok/sImages/hatter.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    margin: 0;
+
+
+}
+
+a { cursor: pointer;}
+
+
+.header {
+    width: 100%;
+    height: 130px;
+    background: url(../Images/feher_csik.png);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items:self-start;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 3;
+}
+
+.header-logo{
+    width: fit-content;
+    height: 100%;
+    display: flex;
+}
+
+.header-logo img{
+    height: 135px;
+}
+
+.header-nav1{
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+}
+
+.header-nav1 ul{
+    list-style: none;
+    margin-left: 16px;
+    margin-right: 0px;
+    margin-top: -10px;
+
+}
+
+.header-nav1 ul li{
+    display: inline;
+}
+
+.header-nav1 ul li a {
+    padding: 0 0px;
+}
+
+
+.header-blank{
+    width: 227px;
+    height: 35px;
+    display: flex; 
+    margin-top: 50px; ;
+    margin-right: 45px;
+    
+}
+
+
+
+
+
+.header-tagok{
+    width: fit-content;
+    height: 35px;
+    display: flex; 
+    
+}
+
+.header-nav2{
+    width: 227px;
+    height: 35px;
+}
+
+.header-nav2 ul{
+    list-style: none;
+    margin-left: 45px;
+    margin-top: 45px;
+
+}
+
+.header-nav2 ul li{
+    display: inline;
+    float: left;
+}
+
+.header-nav2 ul li a {
+    padding: 0 0px;
+}
+
+.header-nav2{
+    width: 270px;
+    height: 35px;
+}
+
+
+.main{
+    height: 4280px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    position: relative; 
+    margin-top: 150px;
+
+}
+
+
+.text{
+    height: 166px;
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    flex-flow: column;
+    position: absolute;
+    justify-content: space-between;
+}
+
+
+.img-question{
+    width: 1037px;
+    height: 53px;
+    background: url(../setupok/sImages/Milyen\ hardvereket\ használunk.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    flex-wrap: nowrap;
+    margin-left: auto;
+    margin-right: auto;
+    @media (max-width:1037px){
+        width: 100%;
+    }
+}
+
+.img-luki{
+    width: 612px;
+    height: 63px;
+    background: url(../setupok/sImages/luki\ setupja.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    flex-wrap: nowrap;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.spec1{
+    height: 2000px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative; 
+    margin-top: 180px;
+    justify-content: space-around;
+    @media(max-width: 1838px){
+        height: 3000px;
+    }
+}
+
+.spec-luki{
+    height: 1016px;
+    width: 898px;
+    background: url(../setupok/sImages/luki\ pc\ specs.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    flex-wrap: wrap;
+    margin-left: 26.75px;
+}
+
+.egyeb-luki{
+    height: 1016px;
+    width: 898px;
+    background: url(../setupok/sImages/luki\ egyéb.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    flex-wrap: wrap;
+    
+}
+
+.setup-luki{
+    height: 977px;
+    width: 1702px;
+    background: url(../setupok/sImages/luki\ setup\ kep.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    flex-wrap: wrap;
+}
+
+
+
+
+.text2{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    flex-flow: column;
+    position: relative;
+    justify-content: space-evenly;
+}
+
+
+
+.img-kade{
+    width: 612px;
+    height: 80px;
+    background: url(../setupok/sImages/KÁDÉ\ setupja.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    flex-wrap: nowrap;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.spec2{
+    height: 2000px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative; 
+    margin-top: 10px;
+    justify-content: space-around;
+    @media(max-width: 1838px){
+        height: 3000px;
+    }
+}
+
+.spec-kade{
+    height: 1016px;
+    width: 898px;
+    background: url(../setupok/sImages/kádé\ pc\ specs.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 26.75px;
+}
+
+.egyeb-kade{
+    height: 1016px;
+    width: 898px;
+    background: url(../setupok/sImages/kádé\ egyéb.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.setup-kade{
+    height: 980px;
+    width: 1702px;
+    background: url(../setupok/sImages/kádé\ setup\ kep.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+
+
+@media (max-width: 600px) {
+
+    .body{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        background: url(../setupok/sImages/hatter.jpg);
+        background-repeat: repeat;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        margin: 0;    
+    }
+    
+    .header {
+        width: 100%;
+        height: 62px;
+        background: url(../Images/feher_csik.png);
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        position: fixed;
+        align-items: self-start;
+        left: 0;
+        right: 0;
+    }
+
+
+    .header-logo{
+        width: fit-content;
+        height: 100%;
+        display: flex;
+    }
+    
+    .header-logo img{
+        height: 65px;
+    }
+    
+    .header-nav1{
+        width: 100%;
+        height: 100%;
+        margin-right: 5px;
+    }
+    
+    .header-nav1 ul{
+        list-style: none;
+    }
+    
+    .header-nav1 ul li{
+        display: inline;
+    }
+    
+    .header-nav1 ul li a {
+        padding: 0 0px;
+    }
+    
+    
+    .header-tagok{
+        width: 130px;
+        height: 35px;
+        display: flex; 
+        
+    }
+    
+    .header-nav2{
+        width: 227px;
+        height: 35px;
+
+    }
+    
+    .header-nav2 ul{
+        list-style: none;
+        margin-left: 10px;
+        margin-top: 20px;        
+    }
+    
+    .header-nav2 ul li{
+        display: inline;
+        float: left;
+    }
+    
+    
+    .header-nav2{
+        width: 270px;
+        height: 35px;
+
+    }
+    
+    
+    
+    .header-blank{
+        width: 130px;
+        height: 35px;
+        display: flex; 
+        background-color: transparent;
+        margin-left: 10px;
+        margin-top: 20px;
+        margin-right: 0px;        
+    }
+    
+
+
+    .main{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        position: relative; 
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 70px;
+    }
+    
+    
+    .text{
+        height: 100px;
+        width: 100%;
+        display: flex;
+        flex-direction:column;
+        flex-wrap: wrap;
+        flex-flow: column;
+        position: absolute;
+        justify-content: space-evenly;
+    }
+    
+    
+    .img-question{
+        width: 100%;
+        height: 60px;
+        background: url(../setupok/sImages/Milyen\ hardvereket\ használunk.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        flex-wrap: nowrap;
+
+    }
+    
+    .img-luki{
+        width: 80%;
+        height: 33px;
+        background: url(../setupok/sImages/luki\ setupja.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: relative;
+        flex-wrap: nowrap;
+    
+    
+    }
+    
+    .spec1{
+        height: 1113px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        position: relative; 
+        margin-top: 100px;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .spec-luki{
+        height: 1113px;
+        width: 90%;
+        background: url(../setupok/sImages/luki\ pc\ specs.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        flex-wrap: wrap;
+    }
+    
+    .egyeb-luki{
+        height: 1113px;
+        width: 90%;
+        background: url(../setupok/sImages/luki\ egyéb.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-left: 25px;
+    }
+    
+    .setup-luki{
+        height: 1113px;
+        width: 100%;
+        background: url(../setupok/sImages/luki\ setup\ kep.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        flex-wrap: wrap;
+    }
+    
+    
+    
+    
+    .text2{
+        height: 50px;
+        width: 100%;
+        display: flex;
+        flex-direction:column;
+        flex-wrap: wrap;
+        flex-flow: column;
+        position: relative;
+        justify-content: space-evenly;
+        margin-top: -100px;
+    }
+    
+    
+    
+    .img-kade{
+        width: 80%;
+        height: 45px;
+        background: url(../setupok/sImages/KÁDÉ\ setupja.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        position: relative;
+        flex-wrap: nowrap;
+    
+    }
+    
+    .spec2{
+        height: 1000px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        position: relative; 
+        margin-top: 15px;
+        align-items: center;
+        justify-content: space-around;
+
+
+    }
+    
+    .spec-kade{
+        height: 1113px;
+        width: 90%;
+        background: url(../setupok/sImages/kádé\ pc\ specs.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    
+    .egyeb-kade{
+        height: 1113px;
+        width: 90%;
+        background: url(../setupok/sImages/kádé\ egyéb.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-left: 5%;
+    }
+    
+    .setup-kade{
+        height: 703px;
+        width: 100%;
+        background: url(../setupok/sImages/kádé\ setup\ kep.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}

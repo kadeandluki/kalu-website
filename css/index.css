@@ -1,0 +1,502 @@
+.header {
+    width: 100%;
+    height: 130px;
+    background: url(../Images/feher_csik.png);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+
+.header-logo{
+    width: fit-content;
+    height: 100%;
+    display: flex;
+}
+
+.header-logo img{
+    height: 135px;
+    margin-top: 10px;
+}
+
+.header-nav1{
+    width: 100%;
+    height: 100%;
+
+}
+
+.header-nav1 ul{
+    list-style: none;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: -10px;
+}
+
+.header-nav1 ul li{
+    display: inline;
+}
+
+.header-nav1 ul li a {
+    padding: 0 0px;
+}
+
+
+.header-tagok{
+    width: fit-content;
+    height: 35px;
+    display: flex;     
+}
+
+.header-nav2{
+    width: 227px;
+    height: 35px; 
+
+}
+
+.header-nav2 ul{
+    list-style: none;
+    margin-left: 45px;
+    margin-top: 50px;
+}
+
+.header-nav2 ul li{
+    display: inline;
+    float: left;
+}
+
+.header-nav2 ul li a {
+    padding: 0 0px;
+}
+
+.header-nav2{
+    width: 270px;
+    height: 35px;
+}
+
+
+
+
+
+.header-setup{
+    width: fit-content;
+    height: 100%;
+    display: flex;
+}
+
+.header-nav3{
+    width: 227px;
+    height: 35px;
+}
+
+.header-nav3 ul{
+    margin-right: 45px;
+    margin-top: 50px;
+}
+
+.header-nav3 ul li{
+    display: inline;
+    float: left;
+}
+
+.header-nav3 ul li a {
+    padding: 0 0px;
+}
+
+.header-nav3{
+    width: 270px;
+    height: 35px;
+}
+
+
+
+
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    @media(max-width: 1335px){
+        height: 2180px;
+        flex-direction: column;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+    }
+}
+
+
+.sm1 {
+    width: 459px;
+    height: 500px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    margin-top: 255px;
+    margin-left: 7.5;
+    @media(max-width: 1335px){
+        order: 2;
+        margin-top: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: -75px;
+        }
+
+}
+
+.sm1-twitch {
+    width: fit-content;
+    height: 104px;
+    display: flex;
+}
+
+.sm1-twitch img{
+    height: 104px;
+}
+
+.sm1-nav1{
+    width: 459px;
+    height: 104px;
+}
+
+.sm1-nav1 ul{
+    list-style: none;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.sm1-nav1 ul li{
+    display: inline;
+    float: left;
+}
+
+.sm1-nav1 ul li a {
+    padding: 0 0px;
+}
+
+
+.middle{
+    height: 840px;
+    width: 402px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-top: 130px;
+    @media(max-width: 1335px){
+        margin-left: auto;
+        margin-right: auto;
+        }
+}
+
+
+
+.img-kozos {
+    width: 404px;
+    height: 462px;
+    background-image: url("../Images/kozos_kep.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    flex-wrap: nowrap;
+    margin-top: -15px;
+    margin-left: 22.5px;
+}
+
+.img-text {
+    width: 402px;
+    height: 404px;
+    background-image: url(../Images/bemutatkozo\ szoveg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    flex-wrap: nowrap;
+    margin-top: -15px;
+    margin-left: -2.5px;
+    
+
+}
+
+.sm2 {
+    width: 459px;
+    height: 500px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    flex-wrap: nowrap;
+    margin-top: 255px;
+    @media(max-width: 1335px){
+        order: 3;
+        margin-top: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        }
+}
+
+
+.sm2-insta {
+    width: fit-content;
+    height: 104px;
+    display: flex;
+}
+
+.sm2-insta img{
+    height: 104px;
+}
+
+.sm2-nav1{
+    width: 459px;
+    height: 104px;
+}
+
+.sm2-nav1 ul{
+    list-style: none;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.sm2-nav1 ul li{
+    display: inline;
+    float: left;
+}
+
+.sm2-nav1 ul li a {
+    padding: 0 0px;
+}
+
+/* -- MOBILE VIEW -- */
+
+@media (max-width: 600px) {
+    
+    .header {
+        width: 100%;
+        height: 62px;
+        background: url(../Images/feher_csik.png);
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        position: fixed;
+        align-items: self-start;
+        left: 0;
+        right: 0;
+    }
+
+
+    .header-logo{
+        width: fit-content;
+        height: 100%;
+        display: flex;
+    }
+    
+    .header-logo img{
+        height: 65px;
+    }
+    
+    .header-nav1{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .header-nav1 ul{
+        list-style: none;
+    }
+    
+    .header-nav1 ul li{
+        display: inline;
+    }
+    
+    .header-nav1 ul li a {
+        padding: 0 0px;
+    }
+    
+    
+    .header-tagok{
+        width: 130px;
+        height: 35px;
+        display: flex; 
+        
+    }
+    
+    .header-nav2{
+        width: 227px;
+        height: 35px;
+
+    }
+    
+    .header-nav2 ul{
+        list-style: none;
+        margin-left: 10px;
+        margin-top: 20px;        
+    }
+    
+    .header-nav2 ul li{
+        display: inline;
+        float: left;
+    }
+    
+    
+    .header-nav2{
+        width: 270px;
+        height: 35px;
+
+    }
+    
+    
+    
+    .header-setup{
+        width: 130px;
+        height: 100%;
+        display: flex;
+
+    }    
+    
+    .header-nav3 ul{
+        margin-right: 10px;
+        margin-top: 20px;
+    }
+    
+    
+    .header-nav3 ul li a {
+        padding: 0 0px;
+    }
+    
+    .header-nav3{
+        width: 270px;
+        height: 35px;
+
+    
+    }
+
+    .main{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+    }
+    
+    
+    .sm1 {
+        width: 90%;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-evenly;
+        flex-wrap: wrap;
+    
+    
+    }
+    
+    .sm1-twitch {
+        width: 100%;
+        height: 85px;
+        display: flex;
+    }
+    
+    .sm1-twitch img{
+        height: 85px;
+    }
+    
+    .sm1-nav1{
+        width: 100%;
+        height: 85px;
+    }
+    
+    .sm1-nav1 ul{
+        list-style: none;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    
+    .sm1-nav1 ul li{
+        display: inline;
+        float: left;
+    }
+    
+    .sm1-nav1 ul li a {
+        padding: 0 0px;
+    }
+    
+    
+    .middle{
+        height: 840px;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        margin-top: 80px;
+    }
+    
+    
+    
+    .img-kozos {
+        width:100%;
+        height: 462px;
+        background-image: url("../Images/kozos_kep.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        flex-wrap: nowrap;
+        margin-left: 10px;
+    }
+    
+    .img-text {
+        width: 90%;
+        height: 404px;
+        background-image: url(../Images/bemutatkozo\ szoveg.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        flex-wrap: nowrap;
+        margin-top: 0px;
+        margin-left: 18.5px;
+        
+    
+    }
+    
+    .sm2 {
+        width: 90%;
+        height: 500px;
+        background-color: transparent;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-evenly;
+        flex-wrap: nowrap;
+        margin-top: 45px;
+
+    }
+    
+    
+    .sm2-insta {
+        width: 100%;
+        height: 85px;
+        display: flex;
+    }
+    
+    .sm2-insta img{
+        height: 85px;
+    }
+    
+    .sm2-nav1{
+        width: 100%;
+        height: 85px;
+    }
+    
+    .sm2-nav1 ul{
+        list-style: none;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    
+    .sm2-nav1 ul li{
+        display: inline;
+        float: left;
+    }
+    
+    .sm2-nav1 ul li a {
+        padding: 0 0px;
+    }
+
+}
